@@ -17,7 +17,7 @@ function CarBlock({
         <div className="row">
           <div className="col">
             <img
-              className="car-block__image img-fluid"
+              className="car-block__image img-thumbnail"
               src={imageUrl}
               alt={make + " " + model + " " + year}
             />

@@ -57,10 +57,10 @@ function CarsItem() {
       car.id === id ? '' : car
       )
     );
-    console.log(dummydb.cars);
+    // console.log(dummydb.cars);
 
   return (
-    <div className="container">
+    <div className="container p-5" >
       {[...data]
         .sort((a, b) => b.rating - a.rating)
         .map((car) => (

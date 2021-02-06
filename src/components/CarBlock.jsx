@@ -3,7 +3,7 @@ import React from 'react';
 function CarBlock({ make, model, year, submittedBy, imageUrl, more, rating }) {
     return (
         <div>
-            <div class="container">
+            <div className="container">
                 <div className="row">
                     <div className="col">
                         <img className="car-block__image img-fluid" src={imageUrl} alt={make + " " + model + " " + year} />

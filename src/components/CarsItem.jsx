@@ -11,7 +11,7 @@ let dummydb = {
         "submittedBy": "Bogdan",
         "imageUrl": "https://www.auto-data.net/images/f23/Mercedes-Benz-E-class-W211.jpg",
         "more":"https://www.auto-data.net/en/mercedes-benz-e-class-w211-amg-e-55-v8-476hp-automatic-12905",
-        "rating": 4
+        "rating": 17
       },      {
         "id":2,
         "make": "BMW",
@@ -20,7 +20,7 @@ let dummydb = {
         "submittedBy": "Romeo",
         "imageUrl": "https://www.auto-data.net/images/f52/BMW-5-Series-E60-Facelift-2007.jpg",
         "more":"https://www.auto-data.net/en/bmw-5-series-e60-facelift-2007-generation-5341",
-        "rating": 2
+        "rating": 7
       },      {
         "id":3,
         "make": "BMW",
@@ -29,7 +29,7 @@ let dummydb = {
         "submittedBy": "Ivan",
         "imageUrl": "https://www.auto-data.net/images/f83/BMW-5-Series-Sedan-G30-LCI-facelift-2020_1.jpg",
         "more":"https://www.auto-data.net/en/bmw-5-series-sedan-g30-lci-facelift-2020-generation-7813",
-        "rating": 4
+        "rating": 14
       }
     ]
   }
@@ -37,7 +37,7 @@ let dummydb = {
 function CarsItem() {
     return (
         <div className="container">
-        {dummydb.cars.map((car) => (
+        {[...dummydb.cars].sort((a,b) => {return b.rating - a.rating}).map((car) => (
           <CarBlock key={car.id} {...car} />
         ))}
         </div>

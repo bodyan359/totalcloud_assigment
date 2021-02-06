@@ -2,10 +2,11 @@ import React from 'react';
 import { Form, Button } from 'react-bootstrap';
 
 function AddNewCar() {
-    
+    let car = "";
+
     return (
         <div>
-            <Form className="p-4" onSubmit>
+            <Form className="p-4">
                 <p className="h4">Add New</p>
             <Form.Group controlId="formBasicMake">
                 <Form.Control type="Normal text" placeholder="Car Make" required/>
@@ -28,15 +29,15 @@ function AddNewCar() {
             </Form.Group>
 
             <Form.Group controlId="formGridState">
-                <Form.Control as="select" defaultValue="Submitted by" required>
-                    <option disabled>Submitted by</option>
-                    <option>Bogdan</option>
-                    <option>Romeo</option>
-                    <option>Ivan</option>
+                <Form.Control as="select" required defaultValue="Submitted by" >
+                        <option disabled>Submitted by</option>
+                        <option value="Bogdan">Bogdan</option>
+                        <option value="Romeo">Romeo</option>
+                        <option value="Ivan">Ivan</option>
                 </Form.Control>
             </Form.Group>
 
-            <Button variant="primary" type="submit" onClick={8}>
+            <Button variant="primary" type="submit">
                 Submit
             </Button>
             </Form>

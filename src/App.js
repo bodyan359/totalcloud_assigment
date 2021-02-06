@@ -1,8 +1,12 @@
+import CarsItem from './components/CarsItem'
+
 function App() {
   return (
     <div className="App">
-      <h1>totalcloud</h1>
-    </div>
+      <p className="h1 text-center">Popular Cars</p>
+      <hr/>
+      < CarsItem />
+      </div>
   );
 }
 

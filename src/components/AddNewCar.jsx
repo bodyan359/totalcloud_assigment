@@ -1,21 +1,22 @@
 import React from 'react';
-import { Form, Button } from 'react-bootstrap'
+import { Form, Button } from 'react-bootstrap';
 
 function AddNewCar() {
+    
     return (
         <div>
-            <Form className="p-4">
+            <Form className="p-4" onSubmit>
                 <p className="h4">Add New</p>
             <Form.Group controlId="formBasicMake">
-                <Form.Control type="Normal text" placeholder="Car Make" />
+                <Form.Control type="Normal text" placeholder="Car Make" required/>
             </Form.Group>
 
             <Form.Group controlId="formBasicModel">
-                <Form.Control type="Normal text" placeholder="Car Model" />
+                <Form.Control type="Normal text" placeholder="Car Model" required/>
             </Form.Group>
 
             <Form.Group controlId="formBasicYear">
-                <Form.Control type="Normal text" placeholder="Production Year" />
+                <Form.Control type="Normal text" placeholder="Production Year" required/>
             </Form.Group>
 
             <Form.Group controlId="formCarPhoto">
@@ -23,11 +24,11 @@ function AddNewCar() {
             </Form.Group>
 
             <Form.Group controlId="formInfoUrl">
-                <Form.Control type="Normal text" placeholder="More Info Url" />
+                <Form.Control type="Normal text" placeholder="More Info Url" required/>
             </Form.Group>
 
             <Form.Group controlId="formGridState">
-                <Form.Control as="select" defaultValue="Submitted by">
+                <Form.Control as="select" defaultValue="Submitted by" required>
                     <option disabled>Submitted by</option>
                     <option>Bogdan</option>
                     <option>Romeo</option>
@@ -35,7 +36,7 @@ function AddNewCar() {
                 </Form.Control>
             </Form.Group>
 
-            <Button variant="primary" type="submit">
+            <Button variant="primary" type="submit" onClick={8}>
                 Submit
             </Button>
             </Form>

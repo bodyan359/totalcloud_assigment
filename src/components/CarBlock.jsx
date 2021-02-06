@@ -8,7 +8,8 @@ function CarBlock({
   imageUrl,
   more,
   rating,
-  addRating
+  addRating,
+  deleteCar
 }) {
   return (
     <div>
@@ -42,6 +43,11 @@ function CarBlock({
               <p className="col-md2 text-secondary">Submitted by: </p>
               <p className="col-md">{submittedBy}</p>
             </div>
+            <button 
+            type="button" 
+            className="btn btn-danger"
+            onClick={deleteCar}>Delete Car</button>
+
           </div>
         </div>
       </div>

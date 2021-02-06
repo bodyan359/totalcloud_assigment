@@ -50,6 +50,15 @@ function CarsItem() {
         car.id === id ? { ...car, rating: car.rating + 1 } : car
       )
     );
+
+  const deleteCar = (id) =>
+    setData((oldData) =>
+      oldData.filter((car) =>
+      car.id === id ? '' : car
+      )
+    );
+    console.log(dummydb.cars);
+
   return (
     <div className="container">
       {[...data]
@@ -59,6 +68,7 @@ function CarsItem() {
             key={car.id}
             {...car}
             addRating={() => increaseRating(car.id)}
+            deleteCar={() => deleteCar(car.id)}
           />
         ))}
     </div>

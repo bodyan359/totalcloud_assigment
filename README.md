@@ -1,4 +1,4 @@
-https://github.com/bodyan359/totalcloud_assigment  - GitHubPages
+https://bodyan359.github.io/totalcloud_assigment/  - GitHubPages
 This app is list of Popular Cars.
 
 

@@ -1,5 +1,5 @@
-import { AddNewCar } from './components'
-import CarsItem from './components/CarsItem'
+import { AddNewCar } from './components';
+import CarsItem from './components/CarsItem';
 
 function App() {
   return (

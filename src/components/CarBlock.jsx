@@ -1,7 +1,9 @@
 import React from 'react';
 
-function CarBlock({ make, model, year, submittedBy, imageUrl, more, rating }) {
-    
+function CarBlock({ make, model, year, submittedBy, imageUrl, more, rating}) {
+
+    // const [rrating, setNewRating] = React.useState(1);
+    console.log(rating);
 
     return (
         <div>
@@ -14,7 +16,7 @@ function CarBlock({ make, model, year, submittedBy, imageUrl, more, rating }) {
                         <div className="row">
                             <div className="col">
                               <img className="w-25 img-thumbnail" src="https://cdn3.iconfinder.com/data/icons/faticons/32/arrow-up-01-512.png" 
-                              alt="RatignUpButton" onClick={() => console.log(rating+=1)} />                        
+                              alt="RatignUpButton" onClick={() => 2} />                        
                             </div>
                             <div className="col">
                                 <p className="car-block__rating font-weight-bold"> {rating}</p>

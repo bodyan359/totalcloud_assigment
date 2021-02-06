@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/totalcloud_assigment/static/css/main.2ae47eeb.chunk.css",
+    "main.js": "/totalcloud_assigment/static/js/main.7ea7adb5.chunk.js",
+    "main.js.map": "/totalcloud_assigment/static/js/main.7ea7adb5.chunk.js.map",
+    "runtime-main.js": "/totalcloud_assigment/static/js/runtime-main.3e2acb2b.js",
+    "runtime-main.js.map": "/totalcloud_assigment/static/js/runtime-main.3e2acb2b.js.map",
+    "static/css/2.150d169a.chunk.css": "/totalcloud_assigment/static/css/2.150d169a.chunk.css",
+    "static/js/2.e1f58909.chunk.js": "/totalcloud_assigment/static/js/2.e1f58909.chunk.js",
+    "static/js/2.e1f58909.chunk.js.map": "/totalcloud_assigment/static/js/2.e1f58909.chunk.js.map",
+    "static/js/3.4038fe1f.chunk.js": "/totalcloud_assigment/static/js/3.4038fe1f.chunk.js",
+    "static/js/3.4038fe1f.chunk.js.map": "/totalcloud_assigment/static/js/3.4038fe1f.chunk.js.map",
+    "index.html": "/totalcloud_assigment/index.html",
+    "static/css/2.150d169a.chunk.css.map": "/totalcloud_assigment/static/css/2.150d169a.chunk.css.map",
+    "static/css/main.2ae47eeb.chunk.css.map": "/totalcloud_assigment/static/css/main.2ae47eeb.chunk.css.map",
+    "static/js/2.e1f58909.chunk.js.LICENSE.txt": "/totalcloud_assigment/static/js/2.e1f58909.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3e2acb2b.js",
+    "static/css/2.150d169a.chunk.css",
+    "static/js/2.e1f58909.chunk.js",
+    "static/css/main.2ae47eeb.chunk.css",
+    "static/js/main.7ea7adb5.chunk.js"
+  ]
+}
